@@ -1,0 +1,19 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "TicTacToe game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anicknam/TicTacToe.git"
+  },
+  "author": "ANICKNAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anicknam/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/anicknam/TicTacToe#readme"
+}
