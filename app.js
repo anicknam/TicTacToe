@@ -9,20 +9,26 @@ $(document).ready(function(){
 		var status = checkWin(results);
 
 		// if status included a winner, show the winner
-		// if (status) {
-		// $('.winner').innerHTML(status)
-		// }
+		if (status) {
+		  $('.winner').innerHTML(status)
+		}
 	});
 
-  function checkWin() {
-  	// check all rows for all Xs or all Os
+	$('.reset').click(function(){
+		$('.box').val('');
+	});
 
-  	// check all columns for all Xs or all Os 
+  function checkWin(array) {
+    // Replace all Xs with 1s and all Os with zeros
 
-  	// check all diagonals for all Xs or all Os
+  	// check all rows for a sum = 3 or a sum = 0, if winner return winner
+    
+  	// check all columns for a sum = 3 or a sum = 0, if winner return winner
 
-  	// if winner, return winner else return null
+  	// check all diagonals for a sum = 3 or a sum = 0, if winner return winner
 
+  	// if no winner was found above, return null
+    return null;
   };
   
 });
